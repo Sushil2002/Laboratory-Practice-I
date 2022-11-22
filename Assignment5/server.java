@@ -21,7 +21,7 @@ public class server {
             a = Integer.parseInt(recieve.readLine());
             System.out.println("Parameter 1 : " + a);
             b = Integer.parseInt(recieve.readLine());
-            System.out.println("Parameter 2 : " + a);
+            System.out.println("Parameter 2 : " + b);
             if (fun.compareTo("add") == 0) {
                 c = a + b;
                 System.out.println("Addition is : " + c);
